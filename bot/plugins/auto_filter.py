@@ -78,10 +78,10 @@ async def auto_filter(bot, update):
                 file_size = f"[{str(round(file_size/(1024**3), 2))} GB] "
             
             
-            file_size = "" if file_size == ("[0 B]") else file_size
+            <b>file_size = "" if file_size == ("[0 B]") else file_size
             
             # add emoji down below inside " " if you want..
-            button_text = <b>f"{file_size}{file_name}"</b>
+            button_text = f"{file_size}{file_name}"</b>
             
 
             if file_type == "video":
