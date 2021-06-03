@@ -4,12 +4,12 @@
 
 class Translation(object):
     
-    START_TEXT = """<b><u><Hey {} What's Up Man😎!!</b></u>
+    START_TEXT = """<b><u><Hey {}What's Up Man😎!!</b></u>
 <b><i><u>🍁Am Just A Advance Auto Filter Bot...🍁
 
 You Can't Add Me To Your Group And Channel 👻⚡</u></i></b>
 
-Team Mallu Hub Movies 🎥..
+<b>Team Mallu Hub Movies 🎥..</b>
 <b>@malluhubbmovies</b>
 """    
     
