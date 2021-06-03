@@ -5,13 +5,13 @@
 class Translation(object):
     
     START_TEXT = """<b><u><Hey {} What's Up Man😎!!</b></u>
-<i>🍁Am Just A Advance Auto Filter Bot...🍁
+<b><i><u>🍁Am Just A Advance Auto Filter Bot...🍁
 
-You Can't Add Me To Your Group And Channel 👻⚡
+You Can't Add Me To Your Group And Channel 👻⚡</u></i></b>
 
-For More Details Click Help Button Below..
-@malluhubbmovies
-</i>"""    
+Team Mallu Hub Movies 🎥..
+<b>@malluhubbmovies</b>
+"""    
     
     HELP_TEXT = """
 <b><i><u>How To Use Me!?</u></i></b>
