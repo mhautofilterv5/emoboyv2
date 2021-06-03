@@ -30,7 +30,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = f"{file_name} \n @MALLUZHUB",
+                caption = caption,
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🍿Joik Our Group🎟️', url="https://t.me/malluhubbmovies"
+                                    '🍿Join Our Group🎟️', url="https://t.me/malluhubbmovies"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🍿Joik Our Group🎟️', url="https://t.me/malluhubbmovies"
+                                    '🍿Join Our Group🎟️', url="https://t.me/malluhubbmovies"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🍿Joik Our Group🎟️', url="https://t.me/malluhubbmovies"
+                                    '🍿Join Our Group🎟️', url="https://t.me/malluhubbmovies"
                                 )
                         ]
                     ]
@@ -112,10 +112,10 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('About 🚩', callback_data='about')
+        InlineKeyboardButton('💒 Home 💒', callback_data='start'),
+        InlineKeyboardButton('⚡ About ⚓', callback_data='about')
     ],[
-        InlineKeyboardButton('Close 🔐', callback_data='close')
+        InlineKeyboardButton('🛑 Close 🛑', callback_data='close')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -133,8 +133,8 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('Close 🔐', callback_data='close')
+        InlineKeyboardButton('💒 Home 💒', callback_data='start'),
+        InlineKeyboardButton('🛑 Close 🛑', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     
