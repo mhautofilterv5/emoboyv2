@@ -23,14 +23,14 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = media.caption if media.caption != ("" or None) else ("<b><code>" + file_name + "</code></b>")
+        caption = file_caption if file_caption != ("" or None) else ("<b><code>" + file_name + "</code></b>")
         
         if file_type == "document":
         
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = caption,
+                caption = media.caption,
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
