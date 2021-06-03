@@ -89,8 +89,8 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('🤩 Our GROUP 🤩', url='https://t.me/malluhubbmovies'),
-        InlineKeyboardButton('🍿 Our CHANNEL 🎟️', url ='https://t.me/MALLUZHUB')
+        InlineKeyboardButton('OUR GROUP 🤩', url='https://t.me/malluhubbmovies'),
+        InlineKeyboardButton('OUR CHANNEL 🎟️', url ='https://t.me/MALLUZHUB')
     ],[
         InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz')
     ],[
