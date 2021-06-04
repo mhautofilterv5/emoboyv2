@@ -26,5 +26,5 @@ Sorry You Can't Add Me To Your Group And Channel..😙⚡</u></i></b>
 
 <b>➥ Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
 
-<b>➥ Source Code</b> : <i><a href="😈 ഒന്നു പോടാ ❕❕ ആ സൈഡിൽ പോയിട്ട് മാറി ഇരി 🚯">Click Me</a></i>
+<b>➥ Source Code</b> : <i><a href="😈 ഒന്നു പോടാ ആ സൈഡിൽ പോയിട്ട് മാറി ഇരി 🚯">Click Me</a></i>
 """
